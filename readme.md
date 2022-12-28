@@ -46,6 +46,12 @@ As a part of this, you will be expected to complete the following
             GET {{url}}/api/task?due_date_in_words=Overdue
         Search (on `title`) should be available.
             GET {{url}}/api/task?title=wash
+        You can add a new user for creation of tasks
+            POST {{url}}/api/user
+        You can login using
+            POST {{url}}/api/user/login
+            
+        Detailed api parameters given in postman collection
 
 	Scheduler:
         All tasks which are soft deleted for more than a month should be permanently deleted from the system.
