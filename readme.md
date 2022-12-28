@@ -43,7 +43,7 @@ As a part of this, you will be expected to complete the following
         Users Should be able to View the list of all the Tasks and Subtasks that are pending. It is fair to assume that tasks will always be sorted based on `due-date` (ascending).
             GET {{url}}/api/task?status=PENDING
         Users should be able to filter Tasks based on `due-date` should be possible using the following - Today, This Week, Next Week, Overdue.
-            GET 
+            GET {{url}}/api/task?due_date_in_words=Overdue
         Search (on `title`) should be available.
             GET {{url}}/api/task?title=wash
 
